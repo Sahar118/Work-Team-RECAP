@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.page1{
+    height: 100vh;
+    width: 100vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+    /* height: 70vh;
+    width: 50vw; */
+    height: 30vh;
+    width: 20vw;
+    background-color: gray;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    /* width: 40px; */
+    /* display: grid;
+    grid-template: 
+    'res res res res'
+    'module c module delete'
+    'power root power divide'
+    'seven eight nine multiply1'
+    'four five six minus'
+    'one two three plus'
+    'zero0 zero0  equal  equal'
+    ;
+    grid-gap: 3px; */
+}
+
+#res{
+    width: 99%;
+    height: 99%;
+    background-color: white;
+    grid-area: 'res';
+    margin-top: 10px;
+
+}
+.grid{
+    font-size: 30px;
+    font-weight: 700;
+    height: 85%;
+    width: 95%;
+    margin-top: 10px;
+display: grid;
+grid-template-columns: repeat(4,1fr);
+grid-template-rows: repeat(6,1fr);
+gap: .35rem;
+margin-inline: .35rem;
+
+}
+.textarea{
+    width: 95%;
+    margin:auto;
+    height: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
